@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding; 0;
+}
+
+
+.navbar { 
+	margin-bottom: 0;
+	border-radius: 0;
+	}
+
+footer {
+	background-color: #000000;
+	font-size: 17px;
+	padding: 1px;
+	z-index: 1;
+	}
+	
+.row.content {
+	width: 1364px;
+	height: 344px;
+	}
+.sidenav {
+	height: 100%;
+	padding: 15px;
+	}
+@media screen and (max-width: 1600px) {
+	.sidenav {
+		height: 100%;
+		padding: 15px;
+		}
+	.row.content{
+		height: auto;
+		width: auto;
+		}
+		}
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	}
+.affix~ .container-fluid {
+	position: relative;
+	top: 50px;
+	}
+
+.table {
+	margin-top: 0;
+	}

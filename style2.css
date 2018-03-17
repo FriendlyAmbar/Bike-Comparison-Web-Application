@@ -1,0 +1,24 @@
+body{
+text-align: center;
+}
+#head{
+display: block;
+font-size: 20px;
+margin: 150px auto;
+color: #ffffff;
+-webkit-border-radius: 10px;
+opacity: 0.6;
+background: red;
+width: 285px;
+height: 135px;
+-webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s, font 2s;
+}
+#head:hover{
+ -webkit-transform: rotate(360deg);
+ opacity: 1;
+ background: #1ec7e6;
+ width: 800px;
+ height: 220px;
+ font: bold 39px Tahoma;
+ 
+}

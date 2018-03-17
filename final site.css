@@ -1,0 +1,124 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar { 
+	margin-bottom: 0;
+	border-radius: 0;
+	}
+	
+.row.content {
+	width: 1364px;
+	height: auto;
+	}
+	
+.sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+	
+@media only screen and (max-device-width: 1524px){
+	.sidenav {
+		height: 100%;
+		padding: 15px;
+		}
+	.row.content{
+		height: auto;
+		width: auto;
+		}
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	}
+.affix~ .container-fluid {
+	position: fix;
+	top: 50px;
+	}
+	
+#photogrid{
+	z-index: -1;
+}
+
+#modal01{
+	z-index: 10000;
+}
+
+#first{
+	padding
+}
+	
+footer {
+	background-color: #000000;
+	font-size: 17px;
+	padding: 1px;
+	z-index: 1000;
+	}
+	
+/*
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron{
+	
+	background-image: url("cruiser_banner.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	
+	}
+
+
+.navbar { 
+	margin-bottom: 0;
+	border-radius: 0;
+	}
+.jumbotron h1 {
+	font-size: 45px;
+	}
+
+.row.content {
+	width: 1364px;
+	height: 344px;
+	}
+.sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+@media screen and (max-width: 1600px) {
+	.sidenav {
+		height: 100%;
+		padding: 15px;
+		}
+	.row.content{
+		height: auto;
+		width: auto;
+		}
+		}
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	}
+.affix~ .container-fluid {
+	position: fix;
+	top: 50px;
+	}
+
+.table {
+	margin-top: 0;
+	}
+	
+footer {
+	background-color: #000000;
+	font-size: 17px;
+	padding: 1px;
+	}
+	*/
